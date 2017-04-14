@@ -11,6 +11,9 @@
 		4C48DD501E6137A000CD4DFE /* Sweep.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C48DD4E1E6137A000CD4DFE /* Sweep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C71F0271E61388C0049858B /* SweepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C48DD531E6137A800CD4DFE /* SweepTests.swift */; };
 		4C71F0451E6149570049858B /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C71F0441E6149570049858B /* JSONParser.swift */; };
+		4C7530F51E878045004BF7E7 /* XMLStackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7530F41E878045004BF7E7 /* XMLStackParser.swift */; };
+		4C7530F71E88363F004BF7E7 /* XMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7530F61E88363F004BF7E7 /* XMLParserTests.swift */; };
+		4C7530F91E8843D6004BF7E7 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7530F81E8843D6004BF7E7 /* Decodable.swift */; };
 		4C74DB8C1E82E2B40012A93C /* ConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C74DB8B1E82E2B40012A93C /* ConnectionProtocol.swift */; };
 		4C7530F31E87669B004BF7E7 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7530F21E87669B004BF7E7 /* Factory.swift */; };
 		4C86DE2F1E84586A00D78668 /* CoreDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86DE2E1E84586A00D78668 /* CoreDataTest.swift */; };
@@ -47,6 +50,9 @@
 		4C48DD531E6137A800CD4DFE /* SweepTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweepTests.swift; sourceTree = "<group>"; };
 		4C71F0421E6149470049858B /* JSONParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParserTest.swift; sourceTree = "<group>"; };
 		4C71F0441E6149570049858B /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		4C7530F41E878045004BF7E7 /* XMLStackParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLStackParser.swift; sourceTree = "<group>"; };
+		4C7530F61E88363F004BF7E7 /* XMLParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParserTests.swift; sourceTree = "<group>"; };
+		4C7530F81E8843D6004BF7E7 /* Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
 		4C74DB8B1E82E2B40012A93C /* ConnectionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionProtocol.swift; sourceTree = "<group>"; };
 		4C7530F21E87669B004BF7E7 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		4C86DE2E1E84586A00D78668 /* CoreDataTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTest.swift; sourceTree = "<group>"; };
@@ -113,6 +119,8 @@
 				D6ED415F1E613F430043DB0B /* WebRequests.swift */,
 				D6822EBF1E6179E0000BBD9A /* Request.swift */,
 				D600D0761E61A92E0037BBEC /* Status.swift */,
+				4C7530F41E878045004BF7E7 /* XMLStackParser.swift */,
+				4C7530F81E8843D6004BF7E7 /* Decodable.swift */,
 			);
 			path = Sweep;
 			sourceTree = "<group>";
@@ -127,6 +135,7 @@
 				B2CCF5A21E61FDDE00E96B5B /* NSAttributedStringsTests.swift */,
 				4C71F0421E6149470049858B /* JSONParserTest.swift */,
 				D6ED41611E613F7A0043DB0B /* WebRequestsTests.swift */,
+				4C7530F61E88363F004BF7E7 /* XMLParserTests.swift */,
 				4C86DE2E1E84586A00D78668 /* CoreDataTest.swift */,
 			);
 			path = SweepTests;
@@ -270,7 +279,9 @@
 				4CE08C971E7CD26900C75E76 /* CoreDataORM.swift in Sources */,
 				D6ED41601E613F440043DB0B /* WebRequests.swift in Sources */,
 				D6822EC01E6179E0000BBD9A /* Request.swift in Sources */,
+				4C7530F91E8843D6004BF7E7 /* Decodable.swift in Sources */,
 				D600D0771E61A92E0037BBEC /* Status.swift in Sources */,
+				4C7530F51E878045004BF7E7 /* XMLStackParser.swift in Sources */,
 				4CE08C951E7CCFF000C75E76 /* QueryBuilder.swift in Sources */,
 				4CE08C911E7CCBD500C75E76 /* DatabaseProtocol.swift in Sources */,
 				4C74DB8C1E82E2B40012A93C /* ConnectionProtocol.swift in Sources */,
@@ -281,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7530F71E88363F004BF7E7 /* XMLParserTests.swift in Sources */,
 				4C86DE2F1E84586A00D78668 /* CoreDataTest.swift in Sources */,
 				D6ED41621E613F7A0043DB0B /* WebRequestsTests.swift in Sources */,
 				4C7530F31E87669B004BF7E7 /* Factory.swift in Sources */,
